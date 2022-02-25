@@ -131,6 +131,9 @@ const controlAddRecipe = async function (newRecipe) {
     console.error(err);
   }
 };
+const newFeature = function () {
+  console.log('welcome to the application!!');
+};
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmark);
   //first thing to do is rendering bookmark
@@ -140,7 +143,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchRecipe);
   paginationView.addHandlerPagination(controlPagination);
   addRecipeView.addHandlerSubmit(controlAddRecipe);
-  console.log('welcome');
+  newFeature();
   //Recipe is not arriving this point so we update 'undefined' now
 };
 init();
