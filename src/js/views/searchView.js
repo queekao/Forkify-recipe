@@ -1,4 +1,4 @@
-import View from './View';
+import View from './view';
 class SearchView {
   //this class only for getting the 'query' and click event
   _parentElement = document.querySelector('.search');
