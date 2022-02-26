@@ -1,9 +1,7 @@
 // import icons from '../img/icons.svg' //Parcel 1
 import icons from 'url:../../img/icons.svg'; //Parcel 2
 import View from './view';
-import { Fraction } from 'fractional';
 import { numberToFraction } from '../helper';
-console.log(Fraction);
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'we could not find that recipe. Please try another one!';
